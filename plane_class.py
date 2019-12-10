@@ -1,6 +1,5 @@
 class Plane():
-    def __init__(self, plane, planeNumber):
-        self.plane = plane
+    def __init__(self, planeNumber):
         self.planeNumber = planeNumber
 
 #     def create_Plane(self):
