@@ -17,6 +17,7 @@ class Flight_Trip():
     def add_passenger(self, passenger):
         self.passengers.append(passenger)
 
+
 # from passengers_class import *
 # from plane_class import *
 #

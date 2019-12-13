@@ -22,7 +22,7 @@ def test_initializing_plane():
 
 def test_Flight():
     new_trip = Flight_Trip()
-    assert isinstance(new_trip,Flight_Trip)
+    assert isinstance(new_trip, Flight_Trip)
 
 def test_plane():
     plane1 = Plane('BA3454')
@@ -54,6 +54,8 @@ def test_passenger_error():
         Passenger()
     except TypeError as error:
         print('Have you passed through the passengers name and passport number?')
+
+
 
 
 # from flight_trip_class import *
